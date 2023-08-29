@@ -40,7 +40,7 @@ function generateSVG(text, textColor, shape, shapeColor) {
     } else if (shape === "Triangle") {
         shapeChild = new Triangle(shapeColor);
     } else if (shape === "Square") {
-    shapeChild = new Square(shapeColor);
+        shapeChild = new Square(shapeColor);
     }
 
     let shapeMarkup = shapeChild.generateMarkup();
@@ -61,7 +61,7 @@ async function saveSVGToFile(filename, svg) {
         await fs.writeFile(filename, svg);
         console.log(`Generated ${filename}`);
     } catch (err) {
-        console.error("An error occurred:", err);
+        console.error("Try again, check spelling", err);
     }
 }
 
