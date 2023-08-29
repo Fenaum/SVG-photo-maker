@@ -10,7 +10,7 @@
   ## Table of Contents
 
   - [Installation](#installation)
-  - [Usage](#usage)npm 
+  - [Usage](#usage) 
   - [License](#license)
   - [Contributing](#contributing)
   - [Tests](#tests)
